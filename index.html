@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <title>Alexey Nikitin</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__background">
+          <div class="header__container">
+            <div class="wrapper__header header-wrapper">
+              <div class="header__logo">
+                <p>Алексей <br />Никитин</p>
+                <a href=""><img src="img/logo.png" alt="logo" /></a>
+              </div>
+              <input
+                class="check_box inp-check"
+                type="checkbox"
+                id="check-menu"
+              />
+              <label for="check-menu"></label>
+              <div class="burger-line first"></div>
+              <div class="burger-line second"></div>
+              <div class="burger-line third"></div>
+              <div class="burger-line fourth"></div>
+              <nav class="main-menu">
+                <a class="burger__link" href="#course-info">Для кого</a>
+                <a class="burger__link" href="#specialTitle">О курсе</a>
+                <a class="burger__link" href="#modulItem">Программа</a>
+                <a class="burger__link" href="#author">Об авторе</a>
+                <a class="burger__link" href="#cardTarif">Стоимость</a>
+              </nav>
+              <button class="btn__help" id="helpButton">Помощь</button>
+              <div class="modal-help" id="modalHelp">
+                <div class="modal-content__help">
+                  <span class="close-help" id="closeButton">&times;</span>
+                  <div class="modal__btn-img">
+                    <img class="soc-img" src="img/social/Telegram.svg" alt="" />
+                    <a target="_blank" href="https://t.me/AlexeyNikitin1"
+                      >Написать в Telegram
+                    </a>
+                  </div>
+                  <div class="modal__btn-img">
+                    <img class="soc-img" src="img/social/VK.svg" alt="" />
+                    <a target="_blank" href="https://vk.me/alexey_nik"
+                      >Написать в ВК
+                    </a>
+                  </div>
+                  <div class="modal__btn-img">
+                    <img class="soc-img" src="img/social/WhatsApp.svg" alt="" />
+                    <a
+                      target="_blank"
+                      href="https://wa.me/393202673923?text=%20%20%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%95%D1%81%D1%82%D1%8C%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%20%D0%BF%D0%BE%20%D0%BA%D1%83%D1%80%D1%81%D1%83%20%22%D0%90%D0%B1%D1%81%D0%BE%D0%BB%D1%8E%D1%82%D0%BD%D0%B0%D1%8F%20%D1%83%D0%B2%D0%B5%D1%80%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%20%D1%81%D0%B5%D0%B1%D0%B5%22%3A"
+                      >Написать в WhatsApp</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resp__btn" id="openModalButton">
+              <a class="btn__help-resp" href="#">
+                <img class="img-resp" src="img/image-help.png" alt="" />
+              </a>
+            </div>
+
+            <div class="modal-help" id="modalHelp">
+              <div class="modal__btn-img">
+                <img class="soc-img" src="img/social/Telegram.svg" alt="" />
+                <a target="_blank" href="https://t.me/AlexeyNikitin1"
+                  >Написать в Telegram
+                </a>
+              </div>
+              <div class="modal__btn-img">
+                <img class="soc-img" src="img/social/VK.svg" alt="" />
+                <a target="_blank" href="https://vk.me/alexey_nik"
+                  >Написать в ВК
+                </a>
+              </div>
+              <div class="modal__btn-img">
+                <img class="soc-img" src="img/social/WhatsApp.svg" alt="" />
+                <a
+                  target="_blank"
+                  href="https://wa.me/393202673923?text=%20%20%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%95%D1%81%D1%82%D1%8C%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%20%D0%BF%D0%BE%20%D0%BA%D1%83%D1%80%D1%81%D1%83%20%22%D0%90%D0%B1%D1%81%D0%BE%D0%BB%D1%8E%D1%82%D0%BD%D0%B0%D1%8F%20%D1%83%D0%B2%D0%B5%D1%80%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%20%D1%81%D0%B5%D0%B1%D0%B5%22%3A"
+                  >Написать в WhatsApp</a
+                >
+              </div>
+            </div>
+            <div class="header__box">
+              <div class="header__box-items">
+                <div class="header__box-item item__box-alex">
+                  <div class="main__decor">
+                    <div class="main__image">
+                      <img
+                        class="alex-main"
+                        src="img/Алексей.png"
+                        alt="main decor"
+                      />
+                      <img
+                        class="alex-mob"
+                        src="img/Алексей-моб.png"
+                        alt="Алексей"
+                      />
+                      <img
+                        class="perehod"
+                        src="img/Переход.png"
+                        alt="переход"
+                      />
+                      <button id="playVideo" class="alex-video_btn"></button>
+                      <button id="closeVideo" class="close_btn">
+                        Закрыть видео
+                      </button>
+                    </div>
+                    <img class="alex-video" src="img/Видео.png" alt="video" />
+                  </div>
+                  <iframe
+                    id="youtube-iframe"
+                    width="960"
+                    height="515"
+                    src="https://www.youtube.com/embed/cIEBtxVOVmM?si=FlxJ_348D1kPcdF-"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+
+                  <div class="main__content">
+                    <div class="main__content-box">
+                      <div class="placeholder__title">
+                        <p>Уникальный трансформационный курс</p>
+                      </div>
+                      <div class="main__titile-absolute">
+                        <h2 class="absolute-title">Абсолютная</h2>
+                        <p class="absolute-text">
+                          Разбудите вашу
+                          <strong>глубинную уверенность</strong> с помощью курса
+                        </p>
+                      </div>
+                      <h1 class="main__titile">уверенность в себе</h1>
+                    </div>
+                    <div class="content__img-text">
+                      <img src="img/ручка.png" alt="pen" class="pen__img" />
+                      <p class="content-text">
+                        Никаких аффирмаций, никакого «позитивного мышления»,
+                        никакого обмана. Только проверенные и надёжные методы
+                        развития естественной уверенности в себе
+                      </p>
+                    </div>
+                    <div class="content__box-btn">
+                      <button class="btn__header">пройти курс</button>
+                      <div class="content__btn-items">
+                        <div class="content__btn-item"><span>+</span>8</div>
+                        <div class="content__btn-item cnt-btn">
+                          профессиональных <br /><strong
+                            >сеансов гипноза</strong
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="page">
+        <section class="section__main">
+          <h1 id="course-info" class="main__title">
+            В каких ситуациях вам поможет курс <br />«Абсолютная уверенность
+            в себе»?
+          </h1>
+          <div class="advice__container slider-advice">
+            <div class="slider__line-advice">
+              <div class="advice__items slide-advice">
+                <p>
+                  Хотите принять себя и забыть про ощущение собственной
+                  <strong>неполноценности</strong>
+                </p>
+              </div>
+              <div class="advice__items advice__item2 slide-advice">
+                <p>
+                  <strong>Избегаете</strong> новых ситуаций и людей, боитесь
+                  не справиться с новыми вызовами
+                </p>
+              </div>
+              <div class="advice__items advice__item2 slide-advice">
+                <p>
+                  Часто пытаетесь кому‑то понравиться или <strong
+                    >получить одобрение</strong
+                  >
+                </p>
+              </div>
+              <div class="advice__items slide-advice">
+                <p>
+                  Хотите <strong>уверенно вести себя</strong> в стрессовых
+                  ситуациях (публичные выступления, свидания, переговоры и пр.)
+                </p>
+              </div>
+
+              <div class="advice__items advice__item2 slide-advice">
+                <p>
+                  Ощущаете <strong>стеснительность</strong> и скованность
+                  в общении
+                </p>
+              </div>
+              <div class="advice__items advice__item2 slide-advice">
+                <p>
+                  Хотите проявлять себя свободно и перестать
+                  <strong>носить маски</strong>
+                </p>
+              </div>
+              <div class="advice__items slide-advice">
+                <p>
+                  Хотите научиться
+                  <strong>выстраивать отношения</strong> с людьми «на равных»
+                </p>
+              </div>
+              <div class="advice__items advice__item2 slide-advice">
+                <p>Вам <strong>трудно</strong> принимать решения</p>
+              </div>
+              <div class="advice__items advice__item2 slide-advice">
+                <p>
+                  У вас <strong>низкая самооценка</strong>, думаете: «со мной
+                  что‑то не так», «я недостаточно хорош/а», «я ничего не
+                  значу» и т.п.
+                </p>
+              </div>
+              <div class="advice__items slide-advice">
+                <p>
+                  Хотите перестать <strong>быть зависимыми</strong> от чужого
+                  мнения
+                </p>
+              </div>
+              <div class="advice__items advice__item2 slide-advice">
+                <p>
+                  Часто <strong>жалеете</strong> о своих поступках и упущенных
+                  возможностях
+                </p>
+              </div>
+              <div class="advice__items advice__item2 slide-advice">
+                <p>
+                  Хотите раз и навсегда разобраться с <strong
+                    >неуверенностью</strong
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="buttons__slider-advice">
+            <button class="button-prev__advice"></button>
+            <button class="button-next__advice"></button>
+          </div>
+        </section>
+        <section class="after__course">
+          <div class="course__container">
+            <h1 class="course__title">После прохождения курса вы:</h1>
+            <div class="slider">
+              <div class="course__big-box slider-line">
+                <div class="course__box1 slide active">
+                  <div class="course__items">
+                    <img
+                      class="svg-line"
+                      src="img/svg/Песочные часы 2.png"
+                      alt="песочные часы"
+                    />
+                    <p class="course__items-text">
+                      <strong>Перестанете концентрироваться</strong> на прошлом
+                    </p>
+                  </div>
+                  <div class="course__items">
+                    <img
+                      class="svg-line"
+                      src="img/svg/Зеркало2 2.png"
+                      alt="зеркало"
+                    />
+                    <p class="course__items-text">
+                      Полностью <strong>примите себя</strong> и все свои
+                      особенности
+                    </p>
+                  </div>
+                  <div class="item__mask">
+                    <p class="course__items-text">
+                      <strong>Начнёте проявлять себя</strong> с удовольствием,
+                      без необходимости притворяться и «носить маски»
+                    </p>
+                    <img
+                      class="mask-slide"
+                      src="img/svg/маска 1.png"
+                      alt="маска"
+                    />
+                  </div>
+                </div>
+
+                <div class="course__box2 slide">
+                  <div class="course__items">
+                    <img
+                      class="svg-line"
+                      src="img/svg/айсберг 2.png"
+                      alt="песочные часы"
+                    />
+                    <p class="course__items-text">
+                      <strong>Глубже узнаете</strong> себя и начнёте лучше
+                      к себе относиться
+                    </p>
+                  </div>
+                  <div class="course__items">
+                    <img
+                      class="svg-line bracer"
+                      src="img/svg/наручники 2.png"
+                      alt="зеркало"
+                    />
+                    <p class="course__items-text top-text">
+                      <strong>Перестанете</strong> быть заложником своих мыслей
+                    </p>
+                  </div>
+                  <div class="course__items">
+                    <img
+                      class="svg-line"
+                      src="img/svg/шестеренка 2.png"
+                      alt="зеркало"
+                    />
+                    <p class="course__items-text">
+                      Поймёте, какие механизмы, запускают неуверенность
+                      и как с ними <strong>справиться</strong>
+                    </p>
+                  </div>
+                  <div class="course__items">
+                    <img src="img/svg/мозги 2.png" alt="зеркало" />
+                    <p class="course__items-text maind-text">
+                      Научитесь использовать свой разум так, чтобы ваша
+                      <strong>уверенность росла</strong>
+                    </p>
+                  </div>
+                </div>
+                <div class="course__box3 slide">
+                  <div class="rocket__item">
+                    <p class="course__items-text">
+                      Обретёте <strong>веру в себя</strong>, и сможете уверенно
+                      развиваться и достигать новых высот в дальнейшем
+                    </p>
+                    <img
+                      class="svg-line"
+                      src="img/svg/ракета1 2.png"
+                      alt="маска"
+                    />
+                  </div>
+                  <div class="course__items">
+                    <img src="img/svg/кубок 2.png" alt="песочные часы" />
+                    <p class="course__items-text">
+                      <strong>Перестанете зависеть</strong> от мнения окружающих
+                      и желать одобрения
+                    </p>
+                  </div>
+                  <div class="course__items">
+                    <img
+                      class="svg-line"
+                      class="wheel"
+                      src="img/svg/руль 1.png"
+                      alt="руль"
+                    />
+                    <p class="course__items-text rule">
+                      Научитесь
+                      <strong>управлять своим состоянием</strong> в стрессовых
+                      ситуациях
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pagination"></div>
+            <div class="buttons__slider">
+              <button class="button-prev"></button>
+              <button class="button-next"></button>
+            </div>
+          </div>
+        </section>
+        <section class="section__user">
+          <div class="user__container">
+            <div class="user__card">
+              <img class="user__img" src="img/user.png" alt="user" />
+              <div class="user__content">
+                <p class="user__text">
+                  Если у меня получилось принять себя и обрести внутреннюю
+                  свободу, несмотря на инвалидность, это может сделать каждый!
+                </p>
+                <p class="user__und-text">Алексей Никитин, автор курса</p>
+              </div>
+              <img src="img/svg/comma.svg" alt="comma" class="comma" />
+              <img src="img/svg/key.png" alt="key" class="key" />
+            </div>
+          </div>
+        </section>
+        <section class="section__module">
+          <div class="module__container">
+            <h1 class="module__title-main">
+              Программа курса<br />
+              «Абсолютная уверенность в себе»
+            </h1>
+            <div class="modele__items">
+              <div class="module__col1">
+                <div id="modulItem" class="module__item">
+                  <h6 class="module1">Модуль 1</h6>
+                  <div class="modul__title-box">
+                    <img src="img/svg/pen.png" alt="pen" />
+                    <h2 class="modul-title">Базовая <br />уверенность</h2>
+                  </div>
+                  <ul class="module__lessons">
+                    <li class="lesson-item">
+                      <strong>Урок 1.</strong> Отпускаем прошлое
+                    </li>
+                    <li class="lesson-item">
+                      <strong>Урок 2.</strong> Принимаем себя
+                    </li>
+                    <li class="lesson-item">
+                      <strong>Урок 3.</strong> Открываем<br />
+                      новые грани себя
+                    </li>
+                    <li class="lesson-item">
+                      <strong>Урок 4.</strong> Включаем <br />"суперсилу"
+                    </li>
+                  </ul>
+                  <img class="cube" src="img/куб.png" alt="cube" />
+                </div>
+                <div class="module__item">
+                  <h6 class="module1">Модуль 2</h6>
+                  <div class="modul__title-box">
+                    <img src="img/svg/brain.png" alt="brain" />
+                    <h2 class="modul-title">Уверенное <br />мышление</h2>
+                  </div>
+                  <ul class="module__lessons">
+                    <li class="lesson-item">
+                      <strong>Урок 1.</strong> Модель «РОСТ»
+                    </li>
+                    <li class="lesson-item">
+                      <strong>Урок 2.</strong> Семь навыков <br />уверенных
+                      людей
+                    </li>
+                    <li class="lesson-item">
+                      <strong>Урок 3.</strong> Как мыслить <br />уверенно
+                    </li>
+                    <li class="lesson-item">
+                      <strong>Урок 4.</strong> Свобода от <br />мнения
+                      окружающих
+                    </li>
+                  </ul>
+                  <img
+                    class="module-rocket"
+                    src="img/модуль ракета.png"
+                    alt="rocket"
+                  />
+                </div>
+              </div>
+              <div class="module__col2">
+                <div class="item-col2">
+                  <h6 class="module1">Модуль 3</h6>
+                  <div class="modul__title-box">
+                    <img src="img/svg/anchor.png" alt="pen" />
+                    <h2 class="modul-title">Ситуационная <br />уверенность</h2>
+                  </div>
+                  <ul class="module__lessons">
+                    <li class="lesson-item">
+                      <strong>Урок 1.</strong> Доверие собственному опыту
+                    </li>
+                    <li class="lesson-item">
+                      <strong>Урок 2.</strong> Якорь уверенности
+                    </li>
+                    <li class="lesson-item">
+                      <strong>Урок 3.</strong> Настройка на успех<br />
+                      новые грани себя
+                    </li>
+                    <li class="lesson-item">
+                      <strong>Урок 4.</strong> Уверенность <br />в стрессовых
+                      ситуациях
+                    </li>
+                  </ul>
+                  <img
+                    class="anchor"
+                    src="img/якорь круг.png"
+                    alt="якорь круг"
+                  />
+                </div>
+                <button class="anchor__btn">преобрести</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section__special">
+          <div class="special__container">
+            <h1 id="specialTitle" class="special__title">
+              Особенности<br />
+              трансформационного <br />онлайн-курса
+            </h1>
+            <div class="special__box">
+              <div class="special__col1">
+                <div class="special__item">
+                  <div class="special__img">
+                    <img
+                      class="rocket-small"
+                      src="img/small-rocket.png"
+                      alt="rocket"
+                    />
+                  </div>
+                  <div class="special__content">
+                    <h3 class="special__content-title">
+                      Глубинная работа с бессознательным
+                    </h3>
+                    <p class="special__content-text">
+                      В курс входят 8 профессиональных аудио-сеансов гипноза.
+                      Благодаря этому изменения происходят на глубинном уровне,
+                      что значительно ускоряет и упрощает достижение результата
+                    </p>
+                  </div>
+                </div>
+                <div class="special__item">
+                  <div class="special__img">
+                    <img
+                      class="rocket-small"
+                      src="img/documet-small.png"
+                      alt="rocket"
+                    />
+                  </div>
+                  <div class="special__content">
+                    <h3 class="special__content-title">
+                      Теория, усиленная практикой
+                    </h3>
+                    <p class="special__content-text">
+                      Курс включает в себя теоретическую часть, практические
+                      упражнения и сеансы гипноза. Для отдельных пакетов участия
+                      также доступны индивидуальные консультации
+                    </p>
+                  </div>
+                </div>
+                <div class="special__item">
+                  <div class="special__img">
+                    <img
+                      class="rocket-small"
+                      src="img/ladder-small.png"
+                      alt="rocket"
+                    />
+                  </div>
+                  <div class="special__content">
+                    <h3 class="special__content-title">Комплексный подход</h3>
+                    <p class="special__content-text">
+                      Курс разработан таким образом, чтобы постепенно
+                      проработать все аспекты уверенности в себе и самооценки
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="special__col2">
+                <div class="special__item2">
+                  <div class="special__content">
+                    <h3 class="special__content-title special__content-title2">
+                      Удобство прохождения
+                    </h3>
+                    <p class="special__content-text special__content-text2">
+                      Материалы представлены в основном в аудио — и текстовом
+                      формате. Поэтому курс удобно проходить даже с телефона,
+                      в любое время и без привязки к месту
+                    </p>
+                  </div>
+                  <div class="special__img">
+                    <img
+                      class="rocket-small"
+                      src="img/microPhone-small.png"
+                      alt="rocket"
+                    />
+                  </div>
+                </div>
+                <div class="special__item2">
+                  <div class="special__content">
+                    <h3 class="special__content-title special__content-title2">
+                      Постоянная поддержка
+                    </h3>
+                    <p class="special__content-text special__content-text2">
+                      Вы всегда сможете задать вопрос автору курса и получить
+                      развёрнутый ответ. Также все участники получают доступ
+                      в закрытую Telegram-группу, где смогут общаться
+                      с единомышленниками
+                    </p>
+                  </div>
+                  <div class="special__img">
+                    <img
+                      class="rocket-small"
+                      src="img/message-small.png"
+                      alt="rocket"
+                    />
+                  </div>
+                </div>
+                <div class="special__item2">
+                  <div class="special__content">
+                    <h3
+                      class="special__content-title special__content-title2 vk-title"
+                    >
+                      Покупая курс, вы помогаете ОСОБЕННЫМ ДЕТЯМ
+                    </h3>
+                    <p
+                      class="special__content-text special__content-text2 vk-text"
+                    >
+                      Значительная часть выручки от продажи этого курса пойдёт
+                      на помощь детям с ДЦП. Отчёты будут
+                      <a
+                        target="_blank"
+                        class="ref-vk"
+                        href="https://vk.com/psy_coach3"
+                        >в группе ВК</a
+                      >
+                    </p>
+                  </div>
+                  <div class="special__img">
+                    <img
+                      class="rocket-small"
+                      src="img/vk-small.png"
+                      alt="rocket"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section__free__course">
+          <div class="free__container">
+            <h1 class="free__title">
+              Сомневаетесь, что курс <br />вам подходит?
+            </h1>
+            <p class="free__text">
+              Вы можете получить бесплатный доступ к первым урокам курса,
+              чтобы оценить удобство обучающей платформы и содержание материалов
+            </p>
+            <a
+              href="https://alexeynikitin.info/wpma/join/9cec2d9158a5f15159315398a6f24243/%7Bemail"
+              class="free__btn"
+              target="_blank"
+              ><span>получить бесплатный доступ</span></a
+            >
+          </div>
+        </section>
+        <section class="section__alex-life">
+          <div class="alex__container">
+            <h2 id="author" class="alex__tiitle">автор и спикер</h2>
+            <p class="alex__text-title">
+              Приветствую! Меня зовут Алексей, я практикующий психолог,
+              специалист по гипнотерапии и сертифицированный коуч ICF
+              (Международная Федерация Коучей).
+            </p>
+            <div class="alex__box-content">
+              <div class="alex__content-items alex-flex">
+                <p class="alex__item">
+                  Я родился в 1991 году и, получив при рождении родовую травму,
+                  <strong>всю жизнь</strong> прожил с диагнозом ДЦП
+                </p>
+                <p class="alex__item">
+                  С самого детства мне пришлось каждый день
+                  <strong>преодолевать страхи и неуверенность</strong>, учиться
+                  не зависеть от чужого мнения и проявлять себя несмотря на свои
+                  ограничения
+                </p>
+                <p class="alex__item">
+                  Это долгий путь, который продолжается и по сей день. Однако,
+                  <strong>я добился некоторых успехов</strong> и абсолютно точно
+                  знаю:
+                </p>
+                <p class="alex__item-bg">
+                  Если у меня получилось обрести внутреннюю свободу, несмотря
+                  на инвалидность, <strong>это может сделать каждый!</strong>
+                </p>
+                <div class="alex__all-photo">
+                  <img
+                    class="all-pht"
+                    src="img/все-Фото.svg"
+                    alt="photo Alexey"
+                  />
+                </div>
+              </div>
+              <div class="alex__content-items">
+                <ul class="alex__list alex-exp">
+                  <li class="alex__list-item">
+                    C 2007 года интересуюсь психологией и скрытыми возможностями
+                    человека
+                  </li>
+                  <li class="alex__list-item">
+                    С 2011 по 2013 гг. Работал бизнес-консультантом
+                  </li>
+                  <li class="alex__list-item">
+                    C 2013 по 2014 гг. Занимал должность директора по развитию
+                    в крупном рекламном агентстве
+                  </li>
+                  <li class="alex__list-item">
+                    C 2014 г. Веду частную практику Коуча
+                  </li>
+                  <li class="alex__list-item">
+                    В 2021 г. Прошёл 50 часов личной обучающей психотерапии
+                  </li>
+                  <li class="alex__list-item">
+                    С 2020 г. Частный практикующий психолог
+                  </li>
+                  <li class="alex__list-item">
+                    Более 800 часов частной психологической практики
+                  </li>
+                  <li class="alex__list-item">
+                    Увлекаюсь актёрским мастерством, живописью, кинематографией,
+                    философией и путешествиями
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section__slider-sert">
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg" />
+          </div>
+          <div class="swiper-container swiper__container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    id="image1"
+                    class="reviews-img"
+                    src="img/сертификаты/серт1.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    id="image2"
+                    class="reviews-img"
+                    src="img/сертификаты/серт2.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    id="image3"
+                    class="reviews-img"
+                    src="img/сертификаты/серт6.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    id="image4"
+                    class="reviews-img"
+                    src="img/сертификаты/серт4.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    id="image5"
+                    class="reviews-img"
+                    src="img/сертификаты/серт5.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    id="image6"
+                    class="reviews-img"
+                    src="img/сертификаты/серт3.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- <div class="swiper-scrollbar"></div> -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </section>
+        <section class="section__cards">
+          <div id="cardTarif" class="cards__container">
+            <div class="cards__items">
+              <div class="card__item">
+                <div class="card__star">
+                  <img src="img/svg/star1.svg" alt="star" />
+                </div>
+                <div class="card__header">
+                  <h3 class="card__packet">пакет</h3>
+                  <h2 class="card__name">«Стандарт»</h2>
+                  <p class="card__text">Cамостоятельное изучение</p>
+                </div>
+                <ul class="card__menu">
+                  <li class="card__item-menu">Все материалы курса</li>
+                  <li class="card__item-menu">Упражнения</li>
+                  <li class="card__item-menu">Аудио сеансы гипноза</li>
+                  <li class="card__item-menu">Доступ в закрытую группу</li>
+                  <li class="card__item-menu">Ответы на вопросы по email</li>
+                </ul>
+                <div class="card__price card-price1">
+                  <h3 class="card__price-title">стоимость</h3>
+                  <span class="card__price-num">18 900 ₽</span>
+                </div>
+                <a
+                  href="https://alexeynikitin.info/product/absolute-confidence-standart/?add-to-cart=1476"
+                  class="card__btn"
+                  target="_blank"
+                  >приобрести</a
+                >
+              </div>
+              <div class="card__item item-card2">
+                <div class="card__star">
+                  <img src="img/svg/star2.svg" alt="star" />
+                </div>
+                <div class="card__header">
+                  <h3 class="card__packet">пакет</h3>
+                  <h2 class="card__name">«Премиум»</h2>
+                  <p class="card__text">Оптимальный результат</p>
+                </div>
+                <ul class="card__menu">
+                  <li class="card__item-menu">Все материалы курса</li>
+                  <li class="card__item-menu">Упражнения</li>
+                  <li class="card__item-menu">Аудио сеансы гипноза</li>
+                  <li class="card__item-menu">Доступ в закрытую группу</li>
+                  <li class="card__item-menu question__vector">
+                    <span>2 месяца Премиум-поддержки</span>
+                    <img src="img/quest-vector.png" alt="quest" />
+                    <div class="popup-info">
+                      <p>
+                        Вы общаетесь со мной в Telegram или WhatsApp, получаете
+                        исчерпывающие ответы на все вопросы, а также
+                        персональные рекомендаци и советы
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="card__item-menu">
+                    3 индивидуальных онлайн-сессии
+                  </li>
+                </ul>
+                <div class="card__price">
+                  <h3 class="card__price-title">стоимость</h3>
+                  <span class="card__price-num">35 900 ₽</span>
+                </div>
+                <a
+                  href="https://alexeynikitin.info/product/absolute-confidence-premium/?add-to-cart=1932"
+                  class="card__btn"
+                  target="_blank"
+                  >приобрести</a
+                >
+              </div>
+              <div class="card__item item-card2">
+                <div class="card__star">
+                  <img src="img/svg/star3.svg" alt="star" />
+                </div>
+                <div class="card__header">
+                  <h3 class="card__packet">пакет</h3>
+                  <h2 class="card__name">«VIP»</h2>
+                  <p class="card__text">Максимальный результат</p>
+                </div>
+                <ul class="card__menu">
+                  <li class="card__item-menu">Все материалы курса</li>
+                  <li class="card__item-menu">Упражнения</li>
+                  <li class="card__item-menu">Аудио сеансы гипноза</li>
+                  <li class="card__item-menu">Доступ в закрытую группу</li>
+                  <li class="card__item-menu question__vector">
+                    3 месяца ВИП-поддержки
+                    <img src="img/quest-vector.png" alt="quest" />
+                    <div class="popup-info info-popup2">
+                      <p>
+                        Я отвечаю максимально быстро на все ваши вопросы
+                        (даже не по теме курса), даю персональные рекомендации
+                        и разборы ваших ситуаций, мотивирую и постоянно
+                        сопровождаю вас к достижению результата.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="card__item-menu">
+                    10 индивидуальных онлайн-сессии
+                  </li>
+                </ul>
+                <div class="card__price">
+                  <h3 class="card__price-title">стоимость</h3>
+                  <span class="card__price-num">73 900 ₽</span>
+                </div>
+                <a
+                  href="https://alexeynikitin.info/product/absolute-confidence-vip/?add-to-cart=1934"
+                  class="card__btn"
+                  target="_blank"
+                  >приобрести</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section__instruction">
+          <div class="instruction__container">
+            <h1 class="instruction__title">
+              Какой порядок <br />действий после оплаты?
+            </h1>
+            <div class="instruction__items">
+              <div class="instruction__item">
+                <span class="instruction__numb">1.</span>
+                <p class="instruction__text instruction__text1">
+                  После оплаты, на указанную вами электронную почту придут
+                  данные для входа в обучающий портал, где будут доступны
+                  все материалы.
+                </p>
+              </div>
+              <div class="instruction__item">
+                <span class="instruction__numb">2.</span>
+                <p class="instruction__text">
+                  Общение с тренером Алексеем происходит: · по email (для пакета
+                  «Стандарт») · в Telegram, WhatsApp или Skype (для пакетов
+                  «Премиум» и «VIP»)
+                </p>
+              </div>
+              <div class="instruction__item">
+                <span class="instruction__numb">3.</span>
+                <p class="instruction__text">
+                  Ссылка на вступление в закрытую Telegram-группу придёт
+                  вам на email
+                </p>
+              </div>
+              <div class="instruction__item">
+                <span class="instruction__numb">4.</span>
+                <p class="instruction__text">
+                  Индивидуальные онлайн-сессии (для пакетов «Премиум» и «VIP»)
+                  будут проходить по предварительной записи, в удобное
+                  для вас время на платформе Zoom или в любом мессенджере
+                  на ваш выбор
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-reviews__container">
+          <h1 class="reviews__title">Отзывы</h1>
+          
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="modalImg" />
+              </div>
+              <!-- Каждая картинка с уникальным ID -->
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    class="reviews-img"
+                    id="image1"
+                    src="img/отзывы/отзыв1.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    class="reviews-img"
+                    id="image2"
+                    src="img/отзывы/отзыв2.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    class="reviews-img"
+                    id="image3"
+                    src="img/отзывы/отзыв3.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    class="reviews-img"
+                    id="image4"
+                    src="img/отзывы/отзыв4.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    class="reviews-img"
+                    id="image5"
+                    src="img/отзывы/отзыв5.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    class="reviews-img"
+                    id="image6"
+                    src="img/отзывы/отзыв6.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    class="reviews-img"
+                    id="image7"
+                    src="img/отзывы/отзыв7.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    class="reviews-img"
+                    id="image8"
+                    src="img/отзывы/отзыв8.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    class="reviews-img"
+                    id="image9"
+                    src="img/отзывы/отзыв9.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <img
+                    class="reviews-img"
+                    id="image10"
+                    src="img/отзывы/отзыв10.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <p target="_blank" class="">
+            ©2021–2023 АЛЕКСЕЙ НИКИТИН.<br />ВСЕ ПРАВА ЗАЩИЩЕНЫ
+          </p>
+          <p target="_blank" class="link-footer" href="">
+            <a
+              target="_blank"
+              class="pol"
+              href="https://alexeynikitin.info/privacy/"
+              >Политика конфиденциальности</a
+            ><br /><a
+              target="_blank"
+              class="oferta"
+              href="https://alexeynikitin.info/oferta/"
+              >Договор оферты</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
